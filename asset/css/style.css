@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg_header: rgb(30, 94, 77);
+}
+
+.bgHeader {
+    background-color: var(--bg_header);
+}
+
+.bgboxblue {
+    background-color: aqua;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
